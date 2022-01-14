@@ -8,6 +8,7 @@ docker run --name "redis-cluster-test" -e "IP=0.0.0.0" -e "SLAVES_PER_MASTER=0" 
 
 docker run --name "mongo-test" -e MONGO_INITDB_ROOT_USERNAME=foo -e MONGO_INITDB_ROOT_PASSWORD=bar -e MONGO_INITDB_DATABASE=connectedroom -p 27017:27017 -d mongo:4.0.27
 
+http://localhost:9006/events/connectedroom/messages
 
 **quick diagnostic payload**
 
